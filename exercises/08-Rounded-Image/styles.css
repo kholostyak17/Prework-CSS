@@ -3,4 +3,9 @@ body {
 }
 .rounded {
 	border-radius: 100%;
+	/* hago la imagen redonda y la centro */
+	height: 250px;
+	width: 250px;
+	object-fit: cover;
+	object-position: 50% 0%;
 }
